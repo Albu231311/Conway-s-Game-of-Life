@@ -1,1 +1,20 @@
-/target
+# Ignorar carpeta de compilación
+build/
+
+# Ignorar carpeta target (donde Rust pone binarios y objetos compilados)
+target/
+
+# Ignorar archivos binarios y ejecutables
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+
+# Ignorar otros archivos temporales comunes
+*.log
+*.tmp
+
+# Ignorar imagen de salida generada por el programa
+out.png
